@@ -1,23 +1,23 @@
 {
-	"FileVersion" : 3,
-	
-	"FriendlyName" : "Monkey Patch",
-	"Version" : 1,
-	"VersionName" : "1.0",
-	"CreatedBy" : "Aldehir Rojas",
-	"CreatedByURL" : "http://alde.dev",
-	"EngineVersion" : "4.15.0",
-	"Description" : "Monkey Patch UT4 Crashes",
-	"Category" : "UnrealTournament.Mod",
-	"EnabledByDefault" : true,
-	"CanContainContent" : false,
-	
-	"Modules" :
-	[
-		{
-			"Name" : "MonkeyPatch",
-			"Type" : "Runtime",
-			"WhitelistPlatforms" : [ "Win64" ]
-		}
-	]
+  "FileVersion" : 3,
+
+  "FriendlyName" : "Monkey Patch",
+  "Version" : 1,
+  "VersionName" : "1.0",
+  "CreatedBy" : "Aldehir Rojas",
+  "CreatedByURL" : "http://alde.dev",
+  "EngineVersion" : "4.15.0",
+  "Description" : "Monkey Patch UT4 Crashes",
+  "Category" : "UnrealTournament.Mod",
+  "EnabledByDefault" : true,
+  "CanContainContent" : false,
+
+  "Modules" :
+  [
+    {
+      "Name" : "MonkeyPatch",
+      "Type" : "Runtime",
+      "WhitelistPlatforms" : [ "Win64" ]
+    }
+  ]
 }

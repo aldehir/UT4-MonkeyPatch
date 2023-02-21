@@ -39,7 +39,7 @@ void FMonkeyPatch::StartupModule()
 
     if (!man.IsModuleLoaded(engineModName) && !man.LoadModule(engineModName).IsValid())
     {
-		UE_LOG(LogMonkeyPatch, Log, TEXT("Could not load module: %s"), *engineModName.ToString());
+        UE_LOG(LogMonkeyPatch, Log, TEXT("Could not load module: %s"), *engineModName.ToString());
         return;
     }
 
@@ -84,7 +84,7 @@ void FMonkeyPatch::ShutdownModule()
     if (Hooks != nullptr)
     {
         funchook_uninstall(Hooks, 0);
-		funchook_destroy(Hooks);
+        funchook_destroy(Hooks);
         Hooks = nullptr;
     }
 
